@@ -1,0 +1,8 @@
+PeerOrgs:
+  - Name: Org2
+    Domain: budget.com
+    specs:
+      - HostName: budgetpeer
+        CommonName: budgetpeer
+    Users:
+      count: 2
