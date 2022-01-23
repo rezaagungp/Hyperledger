@@ -1,0 +1,16 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: acme.com
+    EnableNodeOUs: false
+    Specs:
+      - Hostname: orderer
+
+#### peers organization for acme
+PeerOrgs:
+  - Name: Org1
+    Domain: acme.com
+    Specs:
+      - Hostname: devpeer
+        CommonName: devpeer
+    Users:
+      Count: 2
