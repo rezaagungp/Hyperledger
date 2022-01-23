@@ -1,0 +1,7 @@
+#adds peer for org1 named devpeer 2
+PeerOrgs:
+  - Name: Org1
+    Domain: acme.com
+    Specs:
+      - Hostname: devpeer2
+        CommonName: devpeer2
